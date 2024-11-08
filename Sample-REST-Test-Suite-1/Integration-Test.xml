@@ -25,7 +25,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   </con:testStep>
   <con:testStep type="restrequest" name="Login" id="d669030a-5e8c-4cf7-badd-9e8ae282be4b">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep">
       <con:restRequest name="Login" id="af9f46ad-d5ad-4c3c-bcde-e2f266c3dc2c" mediaType="application/json" postQueryString="false">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
@@ -90,7 +90,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   </con:testStep>
   <con:testStep type="restrequest" name="Search_Item" id="022d6c41-8d52-4cab-9f55-eb49727b9d52">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/search" methodName="Method 1" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/search" methodName="Method 1" xsi:type="con:RestRequestStep">
       <con:restRequest name="Search_Item" id="21ae0292-5321-42ce-b85e-257fe3d8c656" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
@@ -151,7 +151,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   </con:testStep>
   <con:testStep type="restrequest" name="Buy_Item" id="7406a0eb-e0bd-43d6-b123-be75ffdc0869">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/buy" methodName="Method 1" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/buy" methodName="Method 1" xsi:type="con:RestRequestStep">
       <con:restRequest name="Buy_Item" id="b797c37e-2328-43f9-b0d6-f1d993c8419f" mediaType="application/json" postQueryString="false">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
@@ -212,7 +212,7 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   </con:testStep>
   <con:testStep type="restrequest" name="Logout" id="3d09394d-f9db-48d3-aa7c-fa0869a0f163">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/logout" methodName="Method 1" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/logout" methodName="Method 1" xsi:type="con:RestRequestStep">
       <con:restRequest name="Logout" id="05080aa5-8817-44ff-ad88-cf8aec040aef" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>

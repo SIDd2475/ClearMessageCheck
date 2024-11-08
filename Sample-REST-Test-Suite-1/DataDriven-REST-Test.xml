@@ -53,7 +53,7 @@ NOTE: Check the Test Case transaction log after the execution of the test to vie
   </con:testStep>
   <con:testStep type="restrequest" name="Login" id="2b02bf6d-274e-41fc-81cb-293779e06f58">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/login/" methodName="Login" xsi:type="con:RestRequestStep">
       <con:restRequest name="Login" id="af9f46ad-d5ad-4c3c-bcde-e2f266c3dc2c" mediaType="application/json" postQueryString="false">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
@@ -118,7 +118,7 @@ NOTE: Check the Test Case transaction log after the execution of the test to vie
   </con:testStep>
   <con:testStep type="restrequest" name="Logout" id="7024fe11-6ad4-42ea-9d1d-52437f250b9e">
     <con:settings/>
-    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce" resourcePath="/logout" methodName="Method 1" xsi:type="con:RestRequestStep">
+    <con:config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" service="Ecommerce-1" resourcePath="/logout" methodName="Method 1" xsi:type="con:RestRequestStep">
       <con:restRequest name="Logout" id="05080aa5-8817-44ff-ad88-cf8aec040aef" mediaType="application/json">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>

@@ -1,7 +1,7 @@
-Ecommerce\buy.xml
-Ecommerce\Login.xml
-Ecommerce\logout.xml
-Ecommerce\search.xml
+Ecommerce-1\buy.xml
+Ecommerce-1\Login.xml
+Ecommerce-1\logout.xml
+Ecommerce-1\search.xml
 Sample-REST-Test-Suite-1\Simple-Login-Call.xml
 Sample-REST-Test-Suite-1\Integration-Test.xml
 Sample-REST-Test-Suite-1\DataDriven-REST-Test.xml
